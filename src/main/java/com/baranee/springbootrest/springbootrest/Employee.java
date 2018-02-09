@@ -19,7 +19,7 @@ public class Employee {
 	private String degree; 
 	
 	@Column
-	private Date dob; 
+	private String dob; 
 	
 	@Column
 	private String father;
