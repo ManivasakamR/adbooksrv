@@ -25,7 +25,7 @@ public class Employee {
 	private String father;
 
 	@Column
-	private Integer phone;
+	private String phone;
 
 	@Column
 	private String email;
@@ -73,11 +73,11 @@ public class Employee {
 		this.father = father;
 	} 
 	
-	public Integer getPhone() {
+	public String getPhone() {
 		return phone;
 	}
 
-	public void setPhone(Integer phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 
