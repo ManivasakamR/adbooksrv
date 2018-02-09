@@ -77,7 +77,7 @@ public class Employee {
 		return phone;
 	}
 
-	public void setPhone(String phone) {
+	public void setPhone(Integer phone) {
 		this.phone = phone;
 	}
 
@@ -95,10 +95,5 @@ public class Employee {
 
 	public void setAddress(String address) {
 		this.address = address;
-	} 
-	
-	
-	
-	
-	
+	} 	
 }
