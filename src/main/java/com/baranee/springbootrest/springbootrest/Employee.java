@@ -73,7 +73,7 @@ public class Employee {
 		this.father = father;
 	} 
 	
-	public String getPhone() {
+	public Integer getPhone() {
 		return phone;
 	}
 
